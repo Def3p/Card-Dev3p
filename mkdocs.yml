@@ -1,0 +1,28 @@
+site_name: Card Dev3p
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  icon:
+    logo: material/dev-to
+  favicon:
+    logo: material/dev-to
+  palette: 
+
+     # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
